@@ -1,7 +1,7 @@
 __Use this as a template for writing your paper. It will automatically build a cool HTML that contains all your citations like [here](https://robert-nickel.github.io/paper).__
 
 1. Install [pandoc](https://pandoc.org/installing.html) (prerequisite!)
-2. Fork and clone this repo
+2. Use this [repo as template](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template) (!= fork)
 3. Copy pre-commit into your .git/hooks folder, ensure its executable by `chmod +x pre-commit`
 4. Write your paper (in `paper.md`)
 5. Add citations by adding
