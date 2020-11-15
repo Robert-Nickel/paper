@@ -1,0 +1,2 @@
+pandoc --citeproc 00_Nickel_BDD.md --standalone -o index.html
+git add index.html
