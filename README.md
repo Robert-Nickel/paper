@@ -1,4 +1,4 @@
-__Use this as a template for writing your paper. It will automatically build a cool HTML that contains all your citations. You could share and access the HTML via [GitHub Pages](https://pages.github.com/).__
+__Use this as a template for writing your paper. It will automatically build a cool HTML that contains all your citations like [here](https://robert-nickel.github.io/paper).__
 
 1. Install [pandoc](https://pandoc.org/installing.html) (prerequisite!)
 2. Fork and clone this repo
