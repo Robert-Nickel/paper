@@ -8,10 +8,8 @@ __Use this as a template for writing your paper. It will automatically build a c
    1. the book/article/.. you cite in bibliography.bib
    2. [@citation_handle] in your text
 6. Make a git commit. (The pre-commit hook will generate your HTML automatically.)
-
-Optional steps:  
-7. If you want to rename `paper.md`, rename it's reference in `.git/hooks/pre-commit` as well  
-8. If you want to generate your HTML without commiting, execute `pandoc --citeproc paper.md --standalone -o index.html`  
+7. If you want to rename `paper.md`, rename it's reference in `.git/hooks/pre-commit` as well
+8. If you want to generate your HTML without commiting, execute `pandoc --citeproc paper.md --standalone -o index.html`
 9. If you want your paper to be accessible as a website, activate [Github Pages](https://pages.github.com/) by going to Settings -> GitHub Pages and selecting Master as source branch
 10. If the links in your table of contents in the generated HTML don't work, check if they start with a number. If they do, remove the numbers and use an ordered list instead.
 
