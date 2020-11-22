@@ -19,5 +19,6 @@ Tooling proposal:
 - VSC Extensions
   - [Pandoc Citer](https://marketplace.visualstudio.com/items?itemName=notZaki.pandocciter)
   - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+    - Required to auto-generate the table of contents on saving
   - [bibtexLanguage](https://marketplace.visualstudio.com/items?itemName=phr0s.bib)
 - [Brain](https://en.wikipedia.org/wiki/Brain)
