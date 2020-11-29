@@ -10,17 +10,8 @@ listings: true
 papersize: a4paper
 bibliography: [bibliography.bib]
 csl: chicago-author-date.csl
+documentclass: scrreprt
 ---
-
-<!-- Delete this toc if you want to export your PDF -->
-<!-- TODO: Find a better solution!-->
-# Table of contents <!-- omit in toc -->
-1. [Introduction](#introduction)
-2. [Second Chapter](#second-chapter)
-   1. [Second chapter first sub-chapter](#second-chapter-first-sub-chapter)
-   2. [Second chapter second sub-chapter](#second-chapter-second-sub-chapter)
-3. [Conclusion](#conclusion)
-4. [References](#references)
 
 # Introduction
 
@@ -39,5 +30,4 @@ This is the first sub-chapter of 2...
 # Conclusion
 You get the point, right?
 
----
 # References
