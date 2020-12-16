@@ -12,7 +12,7 @@ __Use this as a template for writing your paper. It will automatically build a c
 8. If you want to generate your HTML without commiting, execute `pandoc --citeproc paper.md -s --shift-heading-level-by=1 -o index.html`
 9. If you want your paper to be accessible as a website, activate [Github Pages](https://pages.github.com/) by going to Settings -> GitHub Pages and selecting Master as source branch
 10. If the links in your table of contents in the generated HTML don't work, check if they start with a number. If they do, remove the numbers and use an ordered list instead.
-11. If you want to generate a PDF out of that markdown, ensure you have a pdfEngine installed (e.g. MacTex by `brew cask install mactex`), then delete your table of contents from the markdown (it will be generated) and execute `pandoc --citeproc --toc --template=template.latex paper.md -o paper.pdf`
+11. If you want to generate a PDF out of that markdown, ensure you have a pdfEngine installed (e.g. MacTex by `brew cask install mactex`), then delete your table of contents from the markdown (it will be generated) and execute `pandoc --citeproc --toc paper.md -o paper.pdf`
 
 Tooling proposals:
 - [Visual Studio Code](https://code.visualstudio.com/)
